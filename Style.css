@@ -1,0 +1,616 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    
+    .body1{
+        background-color: #FFFFFF;
+        padding-top: 2px;
+        
+    }
+
+    p{
+        color: gray;
+        font-size:26px
+    }
+
+    h2 {
+        color: #158FFA;
+        border-bottom:1px solid #CCC;
+        text-align:center;
+    }
+    
+    #ax308{
+        width: 85%;
+        margin-top: 10px;
+    }
+    .warface-armas-div-054{
+        display: inline;
+        
+    }
+    .armaswarface{
+        padding: 10px 10px 10px 15px;
+        display: inline-block;
+        width: 61.5%;
+        box-sizing: border-box;
+        
+        
+    }
+    .bg-armas{
+        background-color: burlywood;
+        
+    }
+    
+    .armaswarface li{
+        display: inline-block;
+        width: 20%;
+        vertical-align: top;
+        margin: 0 15px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: solid rgb(48, 32, 9);
+        border-width: 4px 2px 0;
+        border-radius: 10px;
+        height: 170px;
+        
+    }
+    .armaswarface li:hover{
+       
+        border-color:tomato;
+        border-radius: 15px;
+        
+        
+        
+    }
+    .armaswarface li:active{
+        border-radius: 30px;
+        border-color: darkorange;
+        transition: 0.1s;
+    }
+    .armaswarface li:active .armasclass{
+        border-color: darkorange;
+        border-style: solid;
+        border-radius: 8px;
+        border-width: 0 2px;
+    }
+    .armaswarface li:active #arma3{
+        border-color: darkorange;
+        border-style: solid;
+        border-radius: 8px;
+        border-width: 0 2px;
+    }
+
+
+
+    .armasclassicone{
+        width: 20%;
+    }
+    #arma3{
+        width: 92%;
+        transform: rotate(4deg);
+        
+    }
+
+
+    .nomeicone{
+        vertical-align: top;
+        display: inline-block;
+        margin-left: 3px;
+        color: rgb(48, 32, 9);
+        font-size: 21px;
+        
+    }
+
+
+
+    .armasclass{
+        width: 100%;
+        transform: rotate(4deg);
+        margin-right: 10px;
+        
+        
+    }
+    .textoarmasclass{
+        font-size: 20px;
+        text-align: center;
+        padding:  10px 0;
+        color: rgb(48, 32, 9);
+        font-weight: bold;
+    }
+
+
+    
+
+    .iconewarface{
+        width: 105px;
+        transition: all .5s;
+        position: relative;
+        left: 9px;
+        
+        
+        
+        
+    }
+    .iconewarface:hover{
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        transform: rotateZ(360deg);
+    }
+
+
+    .headerconfig{
+        margin: 5px 5px 16px 5px;
+        background-color: rgb(153, 104, 51);
+        color: cornsilk;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 15px;
+        padding: 9px 0px;
+        border: 2px solid rgb(48, 32, 9);
+        box-sizing: border-box;
+        
+        
+        
+    }
+    
+    .lista2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        justify-content: space-around;
+        
+        
+        
+        
+        
+    }
+
+    .lista2 li{
+        margin-right: 50px;
+        font-size: 33px;
+        
+        
+    }
+    
+    
+    .formulariowarface{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        border: solid rgb(48, 32, 9);
+        border-width: 4px  2px 0;
+        border-radius: 10px;
+        padding: 5px;
+        position: relative;
+        left: 40px;
+
+        
+        
+    }
+    .labels1{
+        font-size: 18px;
+        color: rgb(48, 32, 9);
+        margin: 3px 0;
+    }
+    .campo1{
+        border-radius: 8px;
+        padding: 1.5px;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: burlywood;
+        color: rgb(48, 32, 9);
+        border-width: 0px;
+    }
+    
+    .enviarbotao1{
+        margin: 5px 0 0 0;
+        background-color: orange;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 10px;
+        border-color: rgb(48, 32, 9);
+        color: rgb(48, 32, 9);
+        cursor: pointer;
+        
+    }
+
+    .cursor2{
+        margin-left: 3px;
+        padding: 10px;
+        transition: 0.07s;
+        
+        
+    }
+    .cursor2:hover{
+        background: oldlace;
+        border-radius: 15px;
+        filter: drop-shadow(3px 3px 3px rgba(0,0,0,.5));
+    }
+
+
+    .topico1header{
+            text-decoration: none;
+            color: rgb(48, 32, 9);
+            width: 0%;
+            
+            
+    }
+    
+
+
+    .cursor1{
+        padding: 4px 8px 8px 8px;
+        font-weight: bold;
+        background-color: burlywood;
+        border-radius: 10px;
+        border-width: 3px 2px 0 2px;
+        border-style: solid;
+        font-size: 26px;
+        position: relative;
+        right: 50px;
+        
+    }
+    
+    
+    .cursor1:hover{
+        filter: drop-shadow(3px 3px 3px rgba(0,0,0,.5));
+        border-radius: 15px;
+        transition: .07s;
+        color: #FFFFFF;
+        background-color: rgb(48, 32, 9);
+    }
+
+    
+    #warfacelink{
+        color: rgb(48, 32, 9);
+        text-decoration:underline;
+    }
+    .main-warface-home-principal{
+        margin: 0 auto;
+        width: 95%;
+    }
+    .info-div-warface-002{
+        width: 61.5%;
+        display: inline-block;
+        
+    }
+    .h1warface-div-022{
+        display: inline-block;
+        margin-left: 70px;
+    }
+    .h1warface{
+        font-size: 30px;
+        color: red; /* Cor colocada aleatóriamente. */
+        display: block;
+        background-color: burlywood;
+        border-radius: 0 0 25px 25px;
+        padding: 5px;
+     
+    }
+    h1.h1warface{       /* (Tag e classe/id Juntas) Quando se quer deixar a classe ou identificador mais específico usando uma tag, tem que ser juntas, não pode dar espaço entre elas. Quanto mais específico, maior é a prioridade. {Ordem de poder: Inline (Direto no elemento na pagina HTML){1000 de poder}, Id {100 de poder}, Classe {10 de poder}, Tag {1 de poder}(Com as combinações feitas, elas se somam(Exemplo: tag+tag = 2))} */
+        color: rgb(48, 32, 9); 
+    }
+    .info-warface-center{
+        text-align: center;
+    }
+    
+
+    .warfaceinfo{
+        color: rgb(48, 32, 9);
+        display: inline-block;
+        padding: 10px 10px 10px 25px;
+        width: 90%;
+        background-color: burlywood;
+        border-radius: 25px;
+        
+    }
+    .warfaceconheca1{
+       color: rgb(48, 32, 9);
+       display: block;
+       background-color: burlywood;
+       border-radius: 25px 25px 0 0;
+       padding: 5px;
+       float: right;
+       margin-right: 70px;
+       
+    }
+    .img1-div-007{
+        height: 777px;
+        width: 32%;
+        display: block;
+        border-radius: 10%;
+        transition: .1s;
+        box-sizing: border-box;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(48, 32, 9);
+        float: right;
+        background: url(warface1.jpg);
+        background-size: cover;
+        right: 25px;
+        position: relative;
+        cursor: pointer;
+        
+        
+
+        
+        
+    }
+    .img1-div-007:hover{
+        border-radius: 115px;
+        border-color: tomato;
+    }
+    .img1-div-007:active{
+        border-color: darkorange;
+    }
+    
+    
+    .divvideo{
+        width: 58%;
+        position: relative;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 10px;
+        background-color: burlywood;
+        border-radius: 150px 150px 25px 25px;
+        margin-top: 10px;
+        margin-left: 25px;
+        border: solid rgb(48, 32, 9);
+        border-width: 4px 2px 0;
+        
+    }
+   
+    .videowarface{
+        
+        display: inline-block;
+        width: 267px;
+        border-radius: 25px;
+        height: auto;
+        border: 2px solid rgb(48, 32, 9);
+        margin-top: 20px;
+        vertical-align: middle;
+  
+    }
+    .videowarface:hover, .divvideo:hover{
+        border-color: tomato;
+    }
+    #videowarfaceId{
+        margin-left: 0px;
+    }
+    .blackwoodWarfacedivpai{
+        width: 25%;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 108px;
+        padding: 10px;
+    }
+    
+    .blackwoodWarfacediv{
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 5px;
+       
+       
+       
+       
+    }
+    #iconewarfacevideo{
+        width: 46.4%;
+    }
+
+    .iconeblackwoodWarface{
+        width: 35%;
+        vertical-align: middle;
+        
+        
+    }
+    .blackwoodWarfaceconheca{
+        display: inline-block;
+        font-size: 18px;
+        text-align: center;
+        color: rgb(48, 32, 9);
+        margin-top: 8px;
+        font-weight: bold;
+        width: 110%;
+    }
+    .footerwarface{
+        text-align: center;
+        margin-top: 150px;
+        background: url(backgroundfooterimage.png);
+        background-size: 225%;
+        background-position-y: 1%;
+        background-position-x: 1%;
+        padding: 15px;
+        
+
+    }
+    .footerlogo1{
+        width: 15%;
+    }
+    .textofooter1{
+        font-size: 19px;
+        color: #FFFFFF;
+    }
+
+    
+    /* suportewarface */
+    .mainsuportewarface{
+        width: 940px;
+        margin: 0 auto;
+    }
+    .titulodosuporte{
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 13px;
+        color: rgb(48, 32, 9);
+        background-color: burlywood;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    .suporteopcoes{
+        width: 57%;
+        margin-left: 35px;
+        display: inline-block;
+        padding: 5px;
+        box-sizing: border-box;
+        
+    }
+    .radio-item{
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .radio-notificar-003{
+        cursor: pointer;
+    }
+    
+    .problematendo{
+        padding: 5px;
+        margin-bottom: 3px;
+        color: rgb(48, 32, 9);
+        font-weight: bold;
+        
+    }
+    .labelsuporteopcoes{
+        display: inline-block;
+        font-size: 24px;
+        margin: 5px 0 0 5px;
+        padding: 5px;
+        color: rgb(48, 32, 9);
+        cursor: pointer;
+    }
+    .inputsuporteopcoes{
+        display: inline;
+        margin-left: 20px;
+        color: rgb(48, 32, 9);
+        cursor: pointer;
+    }
+    .notificarformulario{
+        display: inline-block;
+        width: 38%;
+        vertical-align: top;
+        padding: 5px;
+        box-sizing: border-box;
+        
+        
+    }
+    .problematendo2{
+        padding: 5px;
+        margin-bottom: 3px;
+        color: rgb(48, 32, 9);
+        font-weight: bold;
+        font-size: 21px;
+    }
+
+    .notificar-label-div{
+        margin-top: 15px;
+    }
+    
+    .notificarlabel{
+        font-size: 20px;
+        padding: 0 0 0 5px;
+        cursor: pointer;
+        
+    }
+    .checkbox-voce-concorda{
+        margin-right: 8px;
+        cursor: pointer;
+        
+        
+    }
+    .select-dia-notificar-div{
+        position: relative;
+        top: 10px;
+        
+    }
+    
+    .select-dia-notificar{
+        font-size: 18px;
+        padding: 4px;
+        color: rgb(48, 32, 9)
+        
+    }
+    .select-option-002{
+        margin: 4px 0 0 17px;
+        background-color: burlywood;
+        color: rgb(48, 32, 9);
+        cursor: pointer;
+        padding: 3px;
+        border-radius: 3px;
+        border-color: rgb(48, 32, 9);
+        font-weight: bold;
+        
+    }
+    .detalhestexto{
+        width: 50%;
+        margin-left: 55px;
+        display: inline-block;
+        
+    }
+    .labeltextoproblema{
+        display: block;
+        font-size: 24px;
+        margin: 3px 0 0 19px;
+        color: rgb(48, 32, 9);
+        padding: 8px;
+        font-weight: bold;
+        
+    }
+    .areadetexto1{
+        display: block;
+        background-color: burlywood;
+        color: rgb(48, 32, 9);
+        font-size: 19px;
+        padding: 10px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: rgb(48, 32, 9);
+    }
+    .botaoreclamacaodiv{
+        position:relative;
+        display: inline-block;
+        left: 350px;
+        top: 30px;
+    }
+    
+    .botaoenviarreclamacao{
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: orange;
+        font-weight: bold;
+        border-color: rgb(48, 32, 9);
+        color: rgb(48, 32, 9);
+        cursor: pointer;
+        
+        
+        
+        
+    }
+
+
+    @media screen and (max-width: 780px){
+        .img1{
+            max-width: 200px;
+            max-height: 200px;
+        }
+        .headerconfig{
+            flex-direction: column;
+
+        }
+        
+    }
+    @media screen and (max-width: 480px){
+        .lista2 li{
+            font-size: 15px;
+            padding-right: 10px;
+        }
+    }
+

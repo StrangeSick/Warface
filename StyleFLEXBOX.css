@@ -1,0 +1,290 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    
+    .body1{
+        background: rgba(128, 111, 38, 0.788);
+        
+    }
+
+    p{
+        color: gray;
+        font-size:26px
+    }
+
+    h2 {
+        color: #158FFA;
+        border-bottom:1px solid #CCC;
+        text-align:center;
+    }
+    
+    .titulo{
+        background-color: #FFFFFF;
+        padding-top: 2px;
+        padding-bottom: 10px;
+        
+        
+        
+    }
+    #ax308{
+        width: 85%;
+        margin-top: 10px;
+    }
+    .img1{
+        
+        height: 650px;
+
+        
+
+    }
+    .img1:hover{
+        border-radius: 115px;
+        border-color: tomato;
+        
+    }
+    .img1:active{
+        border-color: darkorange;
+    }
+    .armaswarface{
+        padding: 10px 10px 10px 15px;
+        display: inline-block;
+        width: 61.5%;
+        box-sizing: border-box;
+    }
+    
+    .armaswarface li{
+        display: inline-block;
+        width: 20%;
+        vertical-align: top;
+        margin: 0 15px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: solid rgb(48, 32, 9);
+        border-width: 0px 2px;
+        border-radius: 10px;
+        
+    }
+    .armaswarface li:hover{
+       
+        border-color:tomato;
+        border-radius: 15px;
+        
+        
+        
+    }
+    .armaswarface li:active{
+        border-radius: 30px;
+        border-color: darkorange;
+        transition: 0.1s;
+    }
+
+
+    .armasclassicone{
+        width: 20%;
+    }
+    #arma3{
+        width: 94%;
+        
+    }
+
+
+    .nomeicone{
+        vertical-align: top;
+        display: inline-block;
+        margin-left: 3px;
+        color: rgb(48, 32, 9);
+        font-size: 22px;
+    }
+
+
+
+    .armasclass{
+        width: 105%;
+        
+        
+    }
+    .textoarmasclass{
+        font-size: 20px;
+        text-align: center;
+        padding:  10px 0;
+        color: rgb(48, 32, 9);
+        font-weight: bold;
+    }
+
+
+    
+
+    .iconewarface{
+        width: 110px;
+        transition: all .5s;
+        position: relative;
+        left: 9px;
+        
+        
+    }
+    .iconewarface:hover{
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        transform: rotateZ(360deg);
+    }
+
+
+    .headerconfig{
+        margin: 5px 5px 16px 5px;
+        background-color: rgb(153, 104, 51);
+        color: cornsilk;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 15px;
+        padding: 9px 0px;
+        border: 2px solid rgb(48, 32, 9);
+        box-sizing: border-box;
+        
+    }
+    
+    .lista2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        
+        
+    }
+
+    .lista2 li{
+        margin-right: 50px;
+        font-size: 33px;
+        
+        
+    }
+    .cursor2{
+        margin-left: 3px;
+        padding: 10px;
+        transition: 0.07s;
+        
+        
+    }
+    .cursor2:hover{
+        background: oldlace;
+        border-radius: 15px;
+        filter: drop-shadow(3px 3px 3px rgba(0,0,0,.5));
+    }
+
+
+    .topico1header{
+            text-decoration: none;
+            color: rgb(48, 32, 9);
+            
+            
+    }
+    
+
+
+    .cursor1{
+        padding: 10px;
+        
+        
+        
+        
+    }
+    
+    
+    .cursor1:hover{
+        filter: drop-shadow(3px 3px 3px rgba(0,0,0,.5));
+        border-radius: 15px;
+        padding: 10px;
+        transition: .07s;
+        color: #FFFFFF;
+        background-color: rgb(48, 32, 9);
+    }
+
+    
+    #warfacelink{
+        color: rgb(48, 32, 9);
+        text-decoration:underline;
+    }
+    
+   
+   
+    .h1warface{
+        font-size: 30px;
+        color: rgb(48, 32, 9);
+        position: absolute;
+        left: 130px;
+        
+        
+        
+    }
+    .flex{
+        display: flex;
+        max-width: 940px;
+        margin: 0 auto;
+        
+        
+        
+        
+    }
+    .flexdiv{
+        width: 210%;
+    }
+    .warfaceconheca1{
+       position: relative;
+       color: rgb(48, 32, 9);
+       display: inline-block;
+       left: 60px;
+       bottom: -10px;
+       
+    }
+    
+    
+    .divvideo{
+        width: 50%;
+        position: relative;
+        display: inline-block;
+        
+    }
+   
+    .videowarface{
+        position: relative;
+        display: inline-block;
+        width: 267px;
+        margin-left: 15px;
+        border-radius: 25px;
+        height: auto;
+        border: 2px solid rgb(48, 32, 9);
+        margin-top: 20px;
+        bottom: -1.7px;
+        
+        
+        
+        
+        
+    }
+    .videowarface:hover{
+        border-color: tomato;
+    }
+    
+    @media screen and (max-width: 780px){
+        .img1{
+            max-width: 200px;
+            max-height: 200px;
+            right: 30px;
+            top: 260px;
+        }
+        .headerconfig{
+            flex-direction: column;
+
+        }
+        
+    }
+    @media screen and (max-width: 480px){
+        .lista2 li{
+            font-size: 15px;
+            padding-right: 10px;
+        }
+    }
+
